@@ -1,0 +1,418 @@
+#minted-holder {
+	position: relative;
+	}
+#minted {
+	position: absolute;
+	top: 300px;
+	left: -3px;
+	}
+#fadeshow1 {
+	z-index: 0;
+	}
+#minted a, #minted img{
+	border: none;
+	}
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	line-height: 105%;
+	font-style: italic;
+	padding:0 0 5px 0;
+	font-weight: normal;
+	}
+#home h1 {color: #624A7E;}
+#expertise h1 {color: #E68545;}
+#fundraising h1 {color: #0099CC;}
+#corporate-services h1 {color: #233F80;}
+#marketing-services h1 {color: #7E153F;}
+#about-us h1 {color: #817F1A;}
+#contact h1 {color: #CD6C03;}
+.bg_image {
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.backfade {
+BACKGROUND-IMAGE: url('../images/backfade.jpg');
+BACKGROUND-REPEAT: repeat-x; 
+BACKGROUND-COLOR: #e8e8e8
+}
+.grnPinstripe {
+BACKGROUND-IMAGE: url('../images/backgrounds/grn_pinstripe.gif');
+BACKGROUND-REPEAT: repeat; 
+BACKGROUND-COLOR: #EFF7E3
+}
+.pinwheel_bg {
+BACKGROUND-IMAGE: url('../images/backgrounds/pinwheel_bg.gif');
+BACKGROUND-REPEAT: repeat-x; 
+}
+
+P {
+FONT-FAMILY: Arial, Helvetica, sans-serif;
+PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; 
+FONT-SIZE: 11px; COLOR: #333; LINE-HEIGHT: 16px; 
+}
+
+DIV {
+	FONT-SIZE: 11px; COLOR: #333; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #333; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: 11px; COLOR: #333; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}	
+A {
+	FONT-SIZE: 11px;
+	COLOR: #82AB58;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+A:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.bodytext {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 11px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	LINE-HEIGHT: 16px; 
+}
+.bodytext A {
+	FONT-SIZE: 11px;
+	COLOR: #82AB58;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.bodytext A:hover {
+	FONT-SIZE: 11px;
+	COLOR: #82AB58;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+.bodytext2 {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 11px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+.bodytextintro {
+	PADDING-RIGHT: 15px; 
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 12px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+.bodytextboarder {
+	PADDING-RIGHT: 10px; 
+	PADDING-LEFT: 12px;
+	FONT-SIZE: 11px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	LINE-HEIGHT: 16px; 
+}
+.bodytextsamples {
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 15px;
+	FONT-SIZE: 11px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+.bullets {
+	PADDING-RIGHT: 8px; 
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 11px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	list-style-image: url("../images/tri_bullet_p.gif");
+}
+
+.bullets {
+	PADDING-RIGHT: 8px; 
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 11px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	list-style-image: url("../images/tri_bullet_p.gif");
+}
+
+ol#numbers li {
+	list-style-type: decimal;
+	list-style-image: none;
+}
+
+.alt {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.alt {
+	FONT-SIZE: 10px; COLOR: #ff9900; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.alt:hover {
+	FONT-SIZE: 10px; COLOR: #ffba00; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+
+.border {
+	BORDER-RIGHT: #233F80 1px solid; BORDER-TOP: #233F80 1px solid; BORDER-LEFT: #233F80 1px solid; BORDER-BOTTOM: #233F80 1px solid
+}
+
+.titleBlue {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #233F80;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleBlue a {
+	text-decoration: underline;
+}
+li.titleBlue {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #233F80;
+	LINE-HEIGHT: 16px;
+	padding-bottom: 8px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleGreen {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #817F1A;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titlePurp {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #624A7E;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleLgtGrn {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #EFF7E3;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleOrng {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #FEC85A;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleLgtPurp {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #7C6495;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleGrn {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #82AB58;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleLgtBlu {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #83A9BB;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titleLightPlum {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #C686A9;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.titlePlum {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #6B1C3B;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.quotation {	
+	PADDING-RIGHT: 10px; 
+	PADDING-LEFT: 0px;
+	font-size: 10pt;
+    COLOR: #624A7E;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: "Times New Roman", Times, serif;
+}
+.footernav {
+	FONT-SIZE: 11px;
+	font-weight:bold;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	color: #233F80;
+}
+.footernav A {
+	FONT-SIZE: 11px;
+	COLOR: #233F80;
+	font-weight:bold;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.footernav A:hover {
+	FONT-SIZE: 11px;
+	COLOR: #233F80;
+	font-weight:bold;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.addressinfo {
+    COLOR: #233F80;
+	LINE-HEIGHT: 18px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-ALIGN: center;
+	font-size: 11px;
+}
+.copyright {
+	FONT-SIZE: 10px; 
+	COLOR: #CCCCCC; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	LINE-HEIGHT: 14px;
+}
+.smallsubnav {
+	FONT-SIZE: 10px; 
+	COLOR: #624A7E; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	LINE-HEIGHT: 14px;
+}
+.columnmenu {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #233F80;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 14px;
+}
+.columnmenu A {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #233F80;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 14px;
+}
+.columnmenu A:hover {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #233F80;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	line-height: 14px;
+	text-decoration: underline;
+}
+.testimonialname {
+	FONT-SIZE: 12px;
+	COLOR: #333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	LINE-HEIGHT: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+.topLinks {
+	FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none
+}
+.topLinks:hover {
+	COLOR: #00519b; TEXT-DECORATION: none
+}
+
+
+
+DIV.form-container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+P.legend {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; COLOR: #666; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+P.legend EM {
+	COLOR: #817F1A
+}
+DIV.errors {
+	BORDER-RIGHT: #fc6 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #fc6 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 10px; BORDER-LEFT: #fc6 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #fc6 1px solid; BACKGROUND-COLOR: #ffc
+}
+DIV.errors P {
+	MARGIN: 0px
+}
+DIV.errors P EM {
+	FONT-WEIGHT: bold; COLOR: #817F1A; FONT-STYLE: normal
+}
+DIV.form-container FORM P {
+	MARGIN: 0px
+}
+DIV.form-container FORM P.note {
+	MARGIN-LEFT: 160px;
+	COLOR: 666;
+	font-size: 90%;
+}
+DIV.form-container FORM FIELDSET {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #ddd 1px solid
+}
+DIV.form-container FORM LEGEND {
+	FONT-WEIGHT: bold; COLOR: #233F80; FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+DIV.form-container FORM FIELDSET DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.25em; PADDING-TOP: 0.25em
+}
+DIV.form-container LABEL {
+	PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: left; WIDTH: 150px; MARGIN-RIGHT: 10px; POSITION: relative; TEXT-ALIGN: right
+}
+DIV.form-container SPAN.label {
+	PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: left; WIDTH: 150px; MARGIN-RIGHT: 10px; POSITION: relative; TEXT-ALIGN: right
+}
+DIV.form-container LABEL.error {
+	COLOR: #c00
+}
+DIV.form-container SPAN.error {
+	COLOR: #c00
+}
+DIV.form-container LABEL EM {
+	FONT-SIZE: 120%; RIGHT: 1px; COLOR: #CD6C03; FONT-STYLE: normal; POSITION: absolute
+}
+DIV.form-container SPAN.label EM {
+	FONT-SIZE: 120%; RIGHT: 1px; COLOR: #817F1A; FONT-STYLE: normal; POSITION: absolute
+}
+DIV.form-container INPUT:focus {
+	BORDER-LEFT-COLOR: #666; BORDER-BOTTOM-COLOR: #666; BORDER-TOP-COLOR: #666; BACKGROUND-COLOR: #666; BORDER-RIGHT-COLOR: #666
+}
+DIV.form-container TEXTAREA:focus {
+	BORDER-LEFT-COLOR: #666; BORDER-BOTTOM-COLOR: #666; BORDER-TOP-COLOR: #666; BACKGROUND-COLOR: #666; BORDER-RIGHT-COLOR: #666
+}
+DIV.form-container DIV.controlset LABEL {
+	DISPLAY: inline; FLOAT: none
+}
+DIV.form-container DIV.controlset INPUT {
+	DISPLAY: inline; FLOAT: none
+}
+DIV.form-container DIV.controlset DIV {
+	MARGIN-LEFT: 150px
+}
+DIV.form-container DIV.buttonrow {
+	MARGIN-LEFT: 150px
+}
+P.legend {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; COLOR: #666; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+P.legend EM {
+	COLOR: #CD6C03
+}
+DIV.form-container FORM FIELDSET {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #ddd 1px solid
+}
+DIV.form-container DIV.buttonrow {
+	MARGIN-LEFT: 180px
+}
